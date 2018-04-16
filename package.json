@@ -47,7 +47,7 @@
     "url-loader": "^0.5.9"
   },
   "peerDependencies": {
-    "react": "^0.14.7 || ^15.0.0"
+    "react": "^16.0.0"
   },
   "dependencies": {
     "active-event-stack": "^1.0.0",

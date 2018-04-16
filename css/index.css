@@ -119,8 +119,8 @@ a {
     padding: 0.5em;
 }
 
-.ui-dialog .ui-dialog-buttonpane button {
-	margin: 0 .5em 0 .5em;
+.ui-dialog .ui-dialog-buttonpane button:not(.btn) {
+    margin: 0 .5em 0 .5em;
     cursor: pointer;
     background-color: #f6f6f6;
     padding: 0.5em 1em;
@@ -129,7 +129,7 @@ a {
     border-radius: 3px;
 }
 
-.ui-dialog .ui-dialog-buttonpane button:hover{
+.ui-dialog .ui-dialog-buttonpane button:not(.btn):hover{
     background-color: #CCCCCC;
     border: 1px solid #BBBBBB;
 }
